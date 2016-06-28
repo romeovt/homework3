@@ -1,0 +1,135 @@
+  body{
+  background-color: #efefef;
+  font-family: sans-serif;
+  height: 100%;
+  }
+
+/*Основной блок */
+.wrapper{
+  margin: 0 auto;
+  width: 1062px;
+  height: 100%;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 0 5px #d6d6d6;
+}
+
+/*Логотип*/
+.logo{
+  display: block;
+}
+
+.header{
+width: 966px;
+padding: 50px 0px 40px 50px;
+}
+
+a {
+  text-decoration: none;
+  transition: .5s linear;
+}
+
+nav {
+  display: block;
+}
+
+/*верхнее меню начало*/
+.top {
+  margin: 0 auto;
+  width: 966px;
+  height: 40px;
+}
+
+.menu ul {
+  background: #545454;
+  overflow: hidden;
+  padding: 0;
+}
+.menu li {
+  float: left;
+}
+.menu a {
+  display: block;
+  padding: 12px 30px;
+  background: #545454;
+  color: white;
+}
+.menu a:hover {
+  background: #393939;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+/*левая колонка*/
+.left {
+  float: left;
+  width: 240px;
+  height: 240px;
+  margin: 40px 40px 20px 50px;
+
+}
+
+.menu_left a {
+  display: block; /* Отображать ссылку как блок */
+  padding: 12px 20px;
+  text-decoration: none; /* Убираем подчеркивание текста */
+  color: #7a7878;
+}
+
+.menu_left li {
+  border: 1px solid #c8c8c8;
+
+}
+
+.menu_left a:hover {
+  background: #f9f9f9;
+  margin-left: 10px;
+  color: black;
+
+ }
+
+/* Правая колонка */
+.content {
+  margin: 40px 50px 0px 335px;
+  border: 0px;
+}
+p{
+  color: #484848;
+  padding: 40px 5px 0px 25px;
+}
+
+/*нижнее меню начало*/
+.footer {
+  margin: 0 auto;
+  width: 966px;
+  height: 40px;
+}
+
+.menu_footer ul {
+  background: #e1e1e1;
+  overflow: hidden;
+  padding: 0;
+}
+
+.menu_footer{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.menu_footer li {
+  float: left;
+}
+.menu_footer a {
+  display: block;
+  padding: 12px 30px;
+  background:  #e1e1e1;
+  color: #484848;
+}
+
+.menu_footer a:hover {
+text-decoration: underline;
+}
+
+.copy {
+color: #484848;
+padding: 12px 0px 0px 280px;
+}
