@@ -1,15 +1,13 @@
   body{
   background-color: #efefef;
   font-family: sans-serif;
-  height: 100%;
-  }
+}
 
 /*Основной блок */
 .wrapper{
   margin: 0 auto;
   width: 1062px;
   height: 100%;
-  overflow: hidden;
   background-color: white;
   box-shadow: 0 0 5px #d6d6d6;
 }
@@ -44,20 +42,26 @@ nav {
   background: #545454;
   overflow: hidden;
   padding: 0;
+
 }
 .menu li {
   float: left;
+
 }
+
 .menu a {
   display: block;
   padding: 12px 30px;
   background: #545454;
   color: white;
+  border: 1px solid transparent;
 }
 .menu a:hover {
   background: #393939;
   border-left: 1px solid white;
-  border-right: 1px solid white;
+  border-right: 1px solid ;
+
+
 }
 
 /*левая колонка*/
@@ -78,9 +82,12 @@ nav {
 
 .menu_left li {
   border: 1px solid #c8c8c8;
-
+border-bottom: 0;
 }
 
+.menu_left li.last {
+  border-bottom: 1px solid #c8c8c8;
+}
 .menu_left a:hover {
   background: #f9f9f9;
   margin-left: 10px;
